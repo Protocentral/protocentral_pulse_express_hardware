@@ -1,0 +1,25 @@
+# --- KiCad ---
+# Backups & autosave
+*-backups/
+_autosave-*
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.000
+*.net
+
+# Lock & cache files
+*.lck
+~*.lck
+fp-info-cache
+*.kicad_prl
+
+# Exported/intermediate (keep deliberate exports in production/ and hardware/)
+*.tmp
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+
